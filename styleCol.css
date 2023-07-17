@@ -1,0 +1,228 @@
+/* Header */
+* {
+    font-family: "Helvetica";
+}
+
+.nav-desktop-items {
+    display: flex;
+    align-items: right;
+    color: gray;
+}
+
+.main-logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    padding-right: 1rem;
+}
+
+
+@media only screen and (max-width:668px) {
+    .nav-mobile-items {
+        display: visible;
+    }
+}
+
+
+@media only screen and (max-width: 668px) {
+    .nav-desktop-items {
+        display: none;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+    nav {
+        display: none;
+    }
+}
+
+
+/* Banner Section */
+.banner_bg-container {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-img {
+    padding: 20px;
+    width: 100%;
+}
+
+.banner-content {
+    color: #2B2D2F;
+    margin: 30px;
+padding:30px;
+}
+
+button {
+    background-color: #2B2D2F;
+    color: white;
+    padding: 2px;
+    width: 200px;
+    height: 30px;
+    margin: 20px 30px;
+    align-items: center;
+    border: none;
+}
+
+@media only screen and (max-width: 668px) {
+    .banner_bg-container {
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* infomation */
+.infomation-container {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.main-content {
+    padding: 20px;
+    color: #2B2D2F;
+}
+
+.cards {
+    justify-content: space-between;
+}
+
+.info-card-container {
+    background-color: lightgray;
+
+    padding: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-card-heading {
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.info-card-description {
+    font-size: 13px;
+
+}
+
+.info-card-image {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.info-card-text-container {
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 668px) {
+
+    .main-content {
+        display: none;
+    }
+
+    .cards {
+        width: 100%;
+    }
+}
+
+/* start Learning */
+
+.course-bg-container {
+    padding: 2rem 3.5rem;
+    background-color: #F5F5F5;
+    color: #2B2D2F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.course-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.course-card {
+    background-color: white;
+margin:30px;
+
+border-radius:10px;
+}
+
+@media only screen and (max-width: 668px) {
+    .course-container {
+        display: none;
+    }
+}
+
+
+.learning-mobile-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.learning-mobile-view-cards {
+    background-color: gray;
+    margin: 5px;
+    height: 70px;
+
+}
+
+@media only screen and (min-width:600px) {
+    .learning-mobile-view {
+        display: none;
+    }
+}
+
+/* Thesis Section */
+.Thesis-bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.Thesis-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.thesis-card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 668px) {
+    .thesis-card-container {
+        display: none;
+    }
+}
+
+/* footer */
+footer {
+    background-color: #F5F5F5;
+
+}
+
+.ul {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 20px;
+    align-items: right;
+}
